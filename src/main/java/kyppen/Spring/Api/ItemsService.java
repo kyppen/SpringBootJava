@@ -13,7 +13,7 @@ public class ItemsService {
     private ItemsRepository itemsRepository;
 
     public List<Item> getItems(){
-        return itemsRepository.getItems();
+        return itemsRepository.getListOfItems();
     }
     public void AddItems(Item item){
         itemsRepository.addItems(item);
